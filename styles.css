@@ -1,22 +1,23 @@
-
+/* Importing Space Grotesk font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-
+/* Resetting default margin, padding, and box-sizing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
+/* Styling for HTML and body elements */
 html,
 body {
   width: 100%;
   height: 100vh;
   background: #c8bbbb;
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk"; /* Applying Space Grotesk font */
 }
 
+/* Header styling */
 .header {
   width: 100%;
   display: flex;
@@ -33,6 +34,7 @@ body {
   list-style: none;
 }
 
+/* Hamburger menu styling */
 .header-hamburger {
   padding: 1em;
 }
@@ -48,6 +50,7 @@ body {
   margin-top: 0.5em;
 }
 
+/* Main wrapper styling */
 .wrapper {
   position: absolute;
   bottom: 0;
@@ -58,6 +61,7 @@ body {
   justify-content: flex-end;
 }
 
+/* Main title styling */
 .main-title {
   padding: 0 0.2em;
   font-size: 8em;
@@ -73,10 +77,10 @@ body {
 .main-title img {
   position: relative;
   top: 0.2em;
-
   width: 140px;
 }
 
+/* Divider styling */
 .divider {
   width: 100%;
   height: 8px;
@@ -84,6 +88,7 @@ body {
   margin: 0.5em 0;
 }
 
+/* Hero image and title styling */
 .hero-image {
   display: flex;
   flex-direction: column;
@@ -100,12 +105,14 @@ body {
   color: rgb(255, 47, 47);
 }
 
+/* Arrow image styling */
 .arrow-img img {
   position: relative;
   width: 150px;
   top: -5em;
 }
 
+/* Hero copy styling */
 .hero-copy {
   display: flex;
   margin-top: 4em;
@@ -137,6 +144,7 @@ body {
   text-transform: uppercase;
 }
 
+/* Media query for responsive design */
 @media (max-width: 900px) {
   .header-menu-1,
   .header-menu-2 {
